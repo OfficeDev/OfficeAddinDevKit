@@ -52,7 +52,6 @@ When a add-in project is created, you can explore and customize the components b
 ### Preview your add-in in Office apps
 
 To understand how the add-in will work in Office apps, you can use the Office Add-in Dev Kit to easily run and debug your Office add-in in your local dev environment.
-Dev_Kit_Preview
 <br><img src=./assets/Dev_Kit_Preview.gif>
 
 #### Check and Install Dependencies
