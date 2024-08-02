@@ -1,15 +1,15 @@
-﻿# Microsoft Office Add-in Dev Kit for Visual Studio Code
-## What is Office Add-in Dev Kit?
-The Office Add-in Dev Kit helps developers set up the environment, create and build Office JS add-ins with a steamlined developer experience.
+﻿# Microsoft Office Add-ins Development Kit for Visual Studio Code
+## What is Office Add-ins Development Kit?
+The Office Add-ins Development Kit helps developers set up the environment, create and build Office JS add-ins with a steamlined developer experience.
 
 <img src=./assets/Office_Addin_Dev_Kit.gif>
 
 ## Getting started
-Open Office Add-in Dev Kit to create a new app and start coding!
+Open Office Add-ins Development Kit to create a new app and start coding!
 
 <img src=./assets/Dev_Kit_GetStarted.png>
 
-In the Office Add-in Dev Kit for Visual Studio Code, you can easily discover all applicable commands in the sidebar and Command Palette with the keyword "Office". It also supports Command Line Interface (CLI) to increase efficiency.
+In the Office Add-ins Development Kit for Visual Studio Code, you can easily discover all applicable commands in the sidebar and Command Palette with the keyword "Office". It also supports Command Line Interface (CLI) to increase efficiency.
 
 ### Prerequisites
 Verify you have the right prerequisites for building Office add-ins and install some recommended development tools. [Read more details](https://learn.microsoft.com/office/dev/add-ins/overview/set-up-your-dev-environment).
@@ -25,10 +25,10 @@ https://www.microsoft.com/microsoft-365/buy/compare-all-microsoft-365-products).
 
 
 ### Create your add-in
-Use the Office Add-in Dev Kit for Visual Studio Code to set up your first add-in project. Create your Office add-in project using the following steps:
+Use the Office Add-ins Development Kit for Visual Studio Code to set up your first add-in project. Create your Office add-in project using the following steps:
 
-* Ensure you've installed the `Microsoft Office Add-in Dev Kit for Visual Studio Code`.
-* Select the `Office Add-in Dev Kit` icon in the Visual Studio Code sidebar.
+* Ensure you've installed the `Microsoft Office Add-ins Development Kit for Visual Studio Code`.
+* Select the `Office Add-ins Development Kit` icon in the Visual Studio Code sidebar.
 * Select `Create a New Add-in` button from the sidebar.
 * Select an Office app that you want to build the add-in for.
 * Select an add-in template from the list of available templates.
@@ -44,14 +44,14 @@ An Office add-in includes two basic components: an XML manifest file, and your o
 
 When a add-in project is created, you can explore and customize the components by reviewing the key files listed below.
 
-- The `./manifest.xml` file in the root directory of the project defines the settings and capabilities of the add-in.  <br>You can check whether your manifest file is valid by selecting `Validate Manifest File` in the `Office Add-in Dev Kit` extension tree view.
+- The `./manifest.xml` file in the root directory of the project defines the settings and capabilities of the add-in.  <br>You can check whether your manifest file is valid by selecting `Validate Manifest File` in the `Office Add-ins Development Kit` extension tree view.
 - The `./src/taskpane/taskpane.html` file contains the HTML markup for the task pane.
 - The `./src/taskpane/taskpane.css` file contains the CSS that's applied to content in the task pane.
 - The `./src/taskpane/taskpane.js` file contains the Office JavaScript API code that facilitates interaction between the task pane and the Word application.
 
 ### Preview your add-in in Office apps
 
-To understand how the add-in will work in Office apps, you can use the Office Add-in Dev Kit to easily run and debug your Office add-in in your local dev environment.
+To understand how the add-in will work in Office apps, you can use the Office Add-ins Development Kit to easily run and debug your Office add-in in your local dev environment.
 <br><img src=./assets/Dev_Kit_Preview.gif>
 
 #### Check and Install Dependencies
