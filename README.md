@@ -54,12 +54,10 @@ When a add-in project is created, you can explore and customize the components b
 To understand how the add-in will work in Office apps, you can use the Office Add-ins Development Kit to easily run and debug your Office add-in in your local dev environment.
 <br><img src=./assets/Dev_Kit_Preview.gif>
 
-#### Check and Install Dependencies
-Select `Check and Install Dependencies` to check your environment and install necessary dependencies in order to run and debug the add-in code.
 
 #### Preview Your Office Add-in (F5)
 
-Select `Preview Your Office Add-in(F5)` on the side panel to start running and debugging the add-in code. A Word/Excel/PowerPoint app will launch with the add-in sample side-loaded.
+Select `Preview Your Office Add-in(F5)` on the side panel to start running and debugging the add-in code. The Office Add-ins Development Kit will firstly chenck and install dependencies, and launch A Word/Excel/PowerPoint app to sideload the add-in sample.
 - You can also start debugging by hitting the `F5` key or running `npm run start` command in the terminal.
 - To debug on Office on the web, go to [Sideload Office Add-ins to Office on the web](https://learn.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing)
 - To debug in Desktop (Edge Legacy), go to [Debug Edge Legacy Webview](https://learn.microsoft.com/office/dev/add-ins/testing/debug-add-ins-using-devtools-edge-legacy)
