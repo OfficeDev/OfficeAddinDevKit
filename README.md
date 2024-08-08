@@ -2,12 +2,12 @@
 ## What is Office Add-ins Development Kit?
 The Office Add-ins Development Kit helps developers set up the environment, create and build Office JS add-ins with a steamlined developer experience.
 
-<img src=./assets/Office_Addin_Dev_Kit.gif>
+<img src=./assets/Office_Addin_Dev_Kit.gif alt="Office Add-ins Development Kit"/>
 
 ## Getting started
 Open Office Add-ins Development Kit to create a new app and start coding!
 
-<img src=./assets/Dev_Kit_GetStarted.png>
+<img src=./assets/Dev_Kit_GetStarted.png alt="Create a new add-in"/>
 
 In the Office Add-ins Development Kit for Visual Studio Code, you can easily discover all applicable commands in the sidebar and Command Palette with the keyword "Office". It also supports Command Line Interface (CLI) to increase efficiency.
 
@@ -16,20 +16,15 @@ Verify you have the right prerequisites for building Office add-ins and install 
 
 - **[Node.js](https://nodejs.org) 16, 18, or 20 (18 is preferred) and [npm](https://www.npmjs.com/get-npm).** To verify if you've already installed these tools, run the commands `node -v` and `npm -v` in your terminal.
 - **Office connected to a Microsoft 365 subscription.** You might qualify for a Microsoft 365 E5 developer subscription through the [Microsoft 365 Developer Program](
-https://developer.microsoft.com/microsoft-365/dev-program), see [FAQ](
-https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program-faq#who-qualifies-for-a-microsoft-365-e5-developer-subscription-) for details.
-Alternatively, you can [sign up for a 1-month free trial](
-https://www.microsoft.com/microsoft-365/try?rtc=1)
-or [purchase a Microsoft 365 plan](
-https://www.microsoft.com/microsoft-365/buy/compare-all-microsoft-365-products).
+https://developer.microsoft.com/microsoft-365/dev-program), see [FAQ](https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program-faq#who-qualifies-for-a-microsoft-365-e5-developer-subscription-) for details. Alternatively, you can [sign up for a 1-month free trial](https://www.microsoft.com/microsoft-365/try?rtc=1) or [purchase a Microsoft 365 plan](https://www.microsoft.com/microsoft-365/buy/compare-all-microsoft-365-products).
 
 
 ### Create your add-in
 Use the Office Add-ins Development Kit for Visual Studio Code to set up your first add-in project. Create your Office add-in project using the following steps:
 
-* Ensure you've installed the `Microsoft Office Add-ins Development Kit for Visual Studio Code`.
-* Select the `Office Add-ins Development Kit` icon in the Visual Studio Code sidebar.
-* Select `Create a New Add-in` button from the sidebar.
+* Ensure you've installed the Microsoft Office Add-ins Development Kit for Visual Studio Code.
+* Select the **Office Add-ins Development Kit** icon in the Visual Studio Code sidebar.
+* Select **Create a New Add-in** button from the sidebar.
 * Select an Office app that you want to build the add-in for.
 * Select an add-in template from the list of available templates.
 * Select JavaScript/TypeScript as the programming language.
@@ -44,31 +39,35 @@ An Office add-in includes two basic components: an XML manifest file, and your o
 
 When a add-in project is created, you can explore and customize the components by reviewing the key files listed below.
 
-- The `./manifest.xml` file in the root directory of the project defines the settings and capabilities of the add-in.  <br>You can check whether your manifest file is valid by selecting `Validate Manifest File` in the `Office Add-ins Development Kit` extension tree view.
+- The `./manifest.xml` file in the root directory of the project defines the settings and capabilities of the add-in.  <br>You can check whether your manifest file is valid by selecting **Validate Manifest File** option from the Office Add-ins Development Kit.
 - The `./src/taskpane/taskpane.html` file contains the HTML markup for the task pane.
 - The `./src/taskpane/taskpane.css` file contains the CSS that's applied to content in the task pane.
-- The `./src/taskpane/taskpane.js` file contains the Office JavaScript API code that facilitates interaction between the task pane and the Word application.
+- The `./src/taskpane/taskpane.js` file contains the Office JavaScript API code that facilitates interaction between the task pane and the Office application.
 
 ### Preview your add-in in Office apps
 
 To understand how the add-in will work in Office apps, you can use the Office Add-ins Development Kit to easily run and debug your Office add-in in your local dev environment.
-<br><img src=./assets/Dev_Kit_Preview.gif>
+<img src=./assets/Dev_Kit_Preview.gif alt="Preview your office Add-in"/>
 
 
 #### Preview Your Office Add-in (F5)
 
-Select `Preview Your Office Add-in(F5)` on the side panel to start running and debugging the add-in code. The Office Add-ins Development Kit will firstly chenck and install dependencies, and launch A Word/Excel/PowerPoint app to sideload the add-in sample.
-- You can also start debugging by hitting the `F5` key or running `npm run start` command in the terminal.
-- To debug on Office on the web, go to [Sideload Office Add-ins to Office on the web](https://learn.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing)
-- To debug in Desktop (Edge Legacy), go to [Debug Edge Legacy Webview](https://learn.microsoft.com/office/dev/add-ins/testing/debug-add-ins-using-devtools-edge-legacy)
+Select **Preview Your Office Add-in(F5)** to launch the add-in and debug the code. 
+
+The extension then checks that the prerequisites are met before debugging starts. Check the terminal for detailed information if there are issues with your environment. After this process, the Office desktop application launches with the sample add-in. 
+
+You can also start debugging by hitting the `F5` key or running `npm run start` command in the terminal
+
+For information on running the sample on Office on the web, see [Sideload Office Add-ins to Office on the web](https://learn.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing).
+
+For information on debugging on older versions of Office, see [Debug add-ins using developer tools in Microsoft Edge Legacy](https://learn.microsoft.com/office/dev/add-ins/testing/debug-add-ins-using-devtools-edge-legacy).
 
 #### Stop Previewing Your Office Add-in
 
-Select `Stop Previewing Your Office Add-in` to stop debugging.
+Once you are finished testing and debugging the add-in, select **Stop Previewing Your Office Add-in**. This closes the web server and removes the add-in from the registry and cache.
 
-
-## Explore Code Samples
-Explore our [samples](https://github.com/OfficeDev/Office-Samples) to help you quickly get started with the basic Teams app concepts and code structures.
+## See also
+Once you understand the sample, make it your own! All the information about Office Add-ins is found in our [official documentation](https://learn.microsoft.com/office/dev/add-ins/overview/office-add-ins). You can also explore more samples in the Office Add-ins Development Kit. Select **View Samples** to see more samples of real-world scenarios.
 
 ## Reporting security issues
 Give security researchers information on how to privately report security vulnerabilities found in your open-source project. See more details [Reporting security issues](https://docs.opensource.microsoft.com/content/releasing/security.html).
