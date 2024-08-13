@@ -48,7 +48,8 @@ When a add-in project is created, you can explore and customize the components b
 ### Preview your add-in in Office apps
 
 To understand how the add-in will work in Office apps, you can use the Office Add-ins Development Kit to easily run and debug your Office add-in in your local dev environment.
-<br><img src=./assets/Dev_Kit_Preview.gif alt="Preview an add-in using Office Add-ins Development Kit"/>
+<br><img src=./assets/Dev_Kit_Preview.gif alt="A user selecting the 'Preview' option from the Office Add-ins Development Kit task pane, then choosing the 'Edge Desktop' option to run the sample."/>
+
 
 #### Preview Your Office Add-in (F5)
 
