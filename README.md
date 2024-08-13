@@ -23,7 +23,8 @@ Verify you have the right prerequisites for building Office add-ins and install 
 ### Create your add-in
 Use the Office Add-ins Development Kit for Visual Studio Code to set up your first add-in project. Create your Office add-in project using the following steps:
 
-* Ensure you've installed the Microsoft Office Add-ins Development Kit for Visual Studio Code.
+* Ensure you've installed the Office Add-ins Development Kit for Visual Studio Code.
+
 * Select the Office Add-ins Development Kit icon in the Visual Studio Code **Activity Bar** to open the extension.
 * Select **Create a New Add-in**.
 * In the drop down that opens, select an Office app that you want to build the add-in for.
