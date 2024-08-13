@@ -51,7 +51,7 @@ When an add-in project is created, you can explore and customize the components 
 ### Preview your add-in in Office apps
 
 To understand how the add-in will work in Office apps, you can use the Office Add-ins Development Kit to easily run and debug your Office add-in in your local dev environment.
-<br><img src=./assets/Dev_Kit_Preview.gif alt="A user selecting the 'Preview' option from the Office Add-ins Development Kit task pane, then choosing the 'Edge Desktop' option to run the sample."/>
+<br><img src=./assets/Dev_Kit_Preview.gif alt="A user selecting 'Preview Your Office Add-in' and the 'Edge Desktop (Edge Chromium)' option for running the add-in."/>
 
 
 #### Preview Your Office Add-in (F5)
@@ -61,7 +61,7 @@ Select **Preview Your Office Add-in (F5)** to launch the add-in and debug the co
 
 The extension then checks that the prerequisites are met before debugging starts. The terminal will display detailed information if there are issues with your environment. After this process, the Office desktop application launches and sideloads the add-in.
 
-You can also start debugging by pressing the `F5` key or running the `npm run start` command in the terminal.
+You can also start debugging by pressing **F5** or running the `npm run start` command in the terminal.
 
 For information on running the add-in on Office on the web, see [Sideload Office Add-ins to Office on the web](https://learn.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing).
 
