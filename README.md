@@ -15,7 +15,7 @@ In the Office Add-ins Development Kit for Visual Studio Code, you can discover a
 
 
 ### Prerequisites
-Verify you have the right prerequisites for building Office add-ins and install some recommended development tools. [Read more details](https://learn.microsoft.com/office/dev/add-ins/overview/set-up-your-dev-environment).
+Verify that you have the right prerequisites for building Office add-ins and install some recommended development tools. [Read more details](https://learn.microsoft.com/office/dev/add-ins/overview/set-up-your-dev-environment).
 
 - Node.js (the latest LTS version). Visit the [Node.js site](https://nodejs.org/) to download and install the right version for your operating system. To verify if you've already installed these tools, run the commands `node -v` and `npm -v` in your terminal.
 - Office connected to a Microsoft 365 subscription. You might qualify for a Microsoft 365 E5 developer subscription through the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program), see [FAQ](https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program-faq#who-qualifies-for-a-microsoft-365-e5-developer-subscription-) for details. Alternatively, you can [sign up for a 1-month free trial](https://www.microsoft.com/microsoft-365/try?rtc=1) or [purchase a Microsoft 365 plan](https://www.microsoft.com/microsoft-365/buy/compare-all-microsoft-365-products).
@@ -27,7 +27,7 @@ Use the Office Add-ins Development Kit for Visual Studio Code to set up your fir
 
 * Select the Office Add-ins Development Kit icon in the Visual Studio Code **Activity Bar** to open the extension.
 * Select **Create a New Add-in**.
-* In the drop down that opens, select an Office app that you want to build the add-in for.
+* In the dropdown that opens, select an Office app for which you want to build the add-in.
 * Select an add-in template from the list of available templates.
 * Select JavaScript or TypeScript as the programming language.
 
@@ -38,10 +38,10 @@ Use the Office Add-ins Development Kit for Visual Studio Code to set up your fir
 ### Configure your add-in
 
 An Office add-in includes two basic components: an XML manifest file, and your own web application. 
-* The manifest defines various settings, including how your add-in integrates with Office clients. 
+* The manifest defines various settings, including how your add-in integrates with Office clients.
 * Your web application needs to be hosted on a web server, or web hosting service, such as Microsoft Azure.
 
-When a add-in project is created, you can explore and customize the components by reviewing the key files listed below.
+When an add-in project is created, you can explore and customize the components by reviewing the key files listed below.
 
 - The `./manifest.xml` file in the root directory of the project defines the settings and capabilities of the add-in.  <br>You can check whether your manifest file is valid by selecting **Validate Manifest File** option from the Office Add-ins Development Kit.
 - The `./src/taskpane/taskpane.html` file contains the HTML markup for the task pane.
@@ -56,7 +56,7 @@ To understand how the add-in will work in Office apps, you can use the Office Ad
 
 #### Preview Your Office Add-in (F5)
 
-Select **Preview Your Office Add-in(F5)** to launch the add-in and debug the code. In the dropdown menu, select the option **Edge Desktop (Edge Chromium)**.
+Select **Preview Your Office Add-in (F5)** to launch the add-in and debug the code. In the dropdown menu, select the option **Edge Desktop (Edge Chromium)**.
 
 
 The extension then checks that the prerequisites are met before debugging starts. The terminal will display detailed information if there are issues with your environment. After this process, the Office desktop application launches and sideloads the add-in.
@@ -69,7 +69,7 @@ For information on debugging on older versions of Office, see [Debug add-ins usi
 
 #### Stop Previewing Your Office Add-in
 
-Once you are finished testing and debugging the add-in, select **Stop Previewing Your Office Add-in**. This closes the web server and removes the add-in from the registry and cache.
+Once you have finished testing and debugging the add-in, select **Stop Previewing Your Office Add-in**. This closes the web server and removes the add-in from the registry and cache.
 
 ## See also
 All the information about Office Add-ins is found in our [official documentation](https://learn.microsoft.com/office/dev/add-ins/overview/office-add-ins). You can also explore more samples in the Office Add-ins Development Kit. Select **View Samples** to see more samples of real-world scenarios.
