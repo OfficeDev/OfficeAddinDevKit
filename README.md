@@ -3,7 +3,8 @@
 The Office Add-ins Development Kit helps developers set up their environment, create Office Add-ins, and debug their code with a streamlined developer experience.
 
 
-<img src=./assets/Office_Addin_Dev_Kit.gif alt="Office Add-ins Development Kit"/>
+<img src=./assets/Office_Addin_Dev_Kit.gif alt="The process of using the Office Add-ins Development Kit to create a new add-in. The animation shows a cursor selecting the 'Create a New add-in button', then choosing options for an Excel add-in with a task pane, written in JavaScript."/>
+
 
 ## Getting started
 Open Office Add-ins Development Kit to create a new add-in and start coding!
