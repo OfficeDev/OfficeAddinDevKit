@@ -56,7 +56,7 @@ To understand how the add-in will work in Office apps, you can use the Office Ad
 Select **Preview Your Office Add-in(F5)** to launch the add-in and debug the code. In the dropdown menu, select the option **Edge Desktop (Edge Chromium)**.
 
 
-The extension then checks that the prerequisites are met before debugging starts. Check the terminal for detailed information if there are issues with your environment. After this process, the Office desktop application launches and sideloads the add-in.
+The extension then checks that the prerequisites are met before debugging starts. The terminal will display detailed information if there are issues with your environment. After this process, the Office desktop application launches and sideloads the add-in.
 
 You can also start debugging by pressing the `F5` key or running the `npm run start` command in the terminal.
 
