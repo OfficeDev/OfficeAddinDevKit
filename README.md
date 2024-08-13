@@ -1,6 +1,7 @@
 ﻿# Microsoft Office Add-ins Development Kit for Visual Studio Code
 ## What is Office Add-ins Development Kit?
-The Office Add-ins Development Kit helps developers set up the environment, create and build Office JS add-ins with a steamlined developer experience.
+The Office Add-ins Development Kit helps developers set up their environment, create Office Add-ins, and debug their code with a streamlined developer experience.
+
 
 <img src=./assets/Office_Addin_Dev_Kit.gif alt="Office Add-ins Development Kit"/>
 
