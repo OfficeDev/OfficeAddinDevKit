@@ -9,7 +9,7 @@ The Office Add-ins Development Kit helps developers set up their environment, cr
 ## Getting started
 Open Office Add-ins Development Kit to create a new add-in and start coding!
 
-<img src=./assets/Dev_Kit_GetStarted.png alt="Screenshot shows Create a new add-in in Office Add-ins Development Kit"/>
+<img src=./assets/Dev_Kit_GetStarted.png alt="The two button that give options for getting started with the developer kit: 'Create a New add-in' and 'View samples'."/>
 
 In the Office Add-ins Development Kit for Visual Studio Code, you can discover all the commands in the sidebar and Command Palette with the keyword "Office". It also supports Command Line Interface (CLI) to increase efficiency.
 
