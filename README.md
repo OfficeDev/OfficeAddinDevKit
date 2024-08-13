@@ -53,7 +53,8 @@ To understand how the add-in will work in Office apps, you can use the Office Ad
 
 #### Preview Your Office Add-in (F5)
 
-Select **Preview Your Office Add-in(F5)** to launch the add-in and debug the code. In the drop down menu, select the option **Desktop (Edge Chromium)**.
+Select **Preview Your Office Add-in(F5)** to launch the add-in and debug the code. In the dropdown menu, select the option **Edge Desktop (Edge Chromium)**.
+
 
 The extension then checks that the prerequisites are met before debugging starts. Check the terminal for detailed information if there are issues with your environment. After this process, the Office desktop application launches and sideloads the add-in.
 
