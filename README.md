@@ -29,7 +29,8 @@ Use the Office Add-ins Development Kit for Visual Studio Code to set up your fir
 * Select **Create a New Add-in**.
 * In the drop down that opens, select an Office app that you want to build the add-in for.
 * Select an add-in template from the list of available templates.
-* Select JavaScript/TypeScript as the programming language.
+* Select JavaScript or TypeScript as the programming language.
+
 * In the **Workspace folder** dialog that opens, select the folder where you want to create the project.
 * Give a name to the project (with no spaces) when prompted. Office Add-ins Development Kit will create the project with basic files and scaffolding. It will then open the project in a *new* Visual Studio Code window. You are free to close the original Visual Studio Code window.
 
