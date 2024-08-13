@@ -53,7 +53,7 @@ Select **Preview Your Office Add-in(F5)** to launch the add-in and debug the cod
 
 The extension then checks that the prerequisites are met before debugging starts. Check the terminal for detailed information if there are issues with your environment. After this process, the Office desktop application launches and sideloads the add-in.
 
-You can also start debugging by hitting the `F5` key or running `npm run start` command in the terminal.
+You can also start debugging by pressing the `F5` key or running the `npm run start` command in the terminal.
 
 For information on running the add-in on Office on the web, see [Sideload Office Add-ins to Office on the web](https://learn.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing).
 
