@@ -1,3 +1,7 @@
+## 1.1.0 - May 20, 2026
+
+Announce retirement of the tool in the Readme.
+
 ## 1.0.0 - Dec 19, 2024
 
 **1.0.0 is the generally available version for Office Add-ins Development Kit with multiple bugs fixed.**
