@@ -1,5 +1,15 @@
 ﻿# Microsoft Office Add-ins Development Kit for Visual Studio Code
+
+> **Note**
+> This extension is being retired. 
+>
+> We recommend the following tools:
+>
+> - For add-ins the use the unified manifest for Microsoft 365, use the Visual Studio Code extension [Microsoft 365 Agents Toolkit](https://learn.microsoft.com/office/dev/add-ins/develop/agents-toolkit-overview).
+> - For add-ins that use the add-in only manifest, use [Yoeman Generator for Office Add-ins](https://learn.microsoft.com/office/dev/add-ins/develop/yeoman-generator-overview).
+
 ## What is Office Add-ins Development Kit?
+
 The Office Add-ins Development Kit helps developers set up their environment, create Office Add-ins, and debug their code with a streamlined developer experience.
 
 
